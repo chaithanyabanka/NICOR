@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[nicor opened]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching :NICOR]]>
+    </line>
+    <line>
+      <![CDATA[clicked researchers]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching :NICOR | For researchers]]>
+    </line>
+    <line>
+      <![CDATA[nicor closed]]>
+    </line>
+    <line>
+      <![CDATA[nicor opened]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching :NICOR]]>
+    </line>
+    <line>
+      <![CDATA[clicked hosp]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching :NICOR | For hospital clinical and audit teams]]>
+    </line>
+    <line>
+      <![CDATA[nicor closed]]>
+    </line>
+    <line>
+      <![CDATA[nicor opened]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching :NICOR]]>
+    </line>
+    <line>
+      <![CDATA[clicked hosp]]>
+    </line>
+    <line>
+      <![CDATA[clicked research]]>
+    </line>
+    <line>
+      <![CDATA[clicked charities]]>
+    </line>
+    <line>
+      <![CDATA[clicked organisation]]>
+    </line>
+    <line>
+      <![CDATA[clicked comm]]>
+    </line>
+    <line>
+      <![CDATA[clicked audit]]>
+    </line>
+    <line>
+      <![CDATA[nicor closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="123547" started-at="2018-07-11T19:10:28Z" finished-at="2018-07-11T19:12:32Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="123547" started-at="2018-07-11T19:10:28Z" finished-at="2018-07-11T19:12:32Z">
+      <class name="com.nicor.tests.TC_01_003">
+        <test-method status="PASS" signature="precondition()[pri:0, instance:com.nicor.tests.TC_01_003@5f3a4b84]" name="precondition" is-config="true" duration-ms="35904" started-at="2018-07-11T19:10:28Z" finished-at="2018-07-11T19:11:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[nicor opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="testresearchersPage()[pri:0, instance:com.nicor.tests.TC_01_003@5f3a4b84]" name="testresearchersPage" duration-ms="1637" started-at="2018-07-11T19:11:04Z" finished-at="2018-07-11T19:11:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching :NICOR]]>
+            </line>
+            <line>
+              <![CDATA[clicked researchers]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching :NICOR | For researchers]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testresearchersPage -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.nicor.tests.TC_01_003@5f3a4b84]" name="postCondition" is-config="true" duration-ms="2358" started-at="2018-07-11T19:11:06Z" finished-at="2018-07-11T19:11:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[nicor closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.nicor.tests.TC_01_003 -->
+      <class name="com.nicor.tests.TC_01_001">
+        <test-method status="PASS" signature="precondition()[pri:0, instance:com.nicor.tests.TC_01_001@670b40af]" name="precondition" is-config="true" duration-ms="34656" started-at="2018-07-11T19:11:46Z" finished-at="2018-07-11T19:12:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[nicor opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="testHomePage()[pri:0, instance:com.nicor.tests.TC_01_001@670b40af]" name="testHomePage" duration-ms="10392" started-at="2018-07-11T19:12:21Z" finished-at="2018-07-11T19:12:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching :NICOR]]>
+            </line>
+            <line>
+              <![CDATA[clicked hosp]]>
+            </line>
+            <line>
+              <![CDATA[clicked research]]>
+            </line>
+            <line>
+              <![CDATA[clicked charities]]>
+            </line>
+            <line>
+              <![CDATA[clicked organisation]]>
+            </line>
+            <line>
+              <![CDATA[clicked comm]]>
+            </line>
+            <line>
+              <![CDATA[clicked audit]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.nicor.tests.TC_01_001@670b40af]" name="postCondition" is-config="true" duration-ms="133" started-at="2018-07-11T19:12:31Z" finished-at="2018-07-11T19:12:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[nicor closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.nicor.tests.TC_01_001 -->
+      <class name="com.nicor.tests.TC_01_002">
+        <test-method status="PASS" signature="precondition()[pri:0, instance:com.nicor.tests.TC_01_002@27f723]" name="precondition" is-config="true" duration-ms="34271" started-at="2018-07-11T19:11:08Z" finished-at="2018-07-11T19:11:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[nicor opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="testHospitalsPage()[pri:0, instance:com.nicor.tests.TC_01_002@27f723]" name="testHospitalsPage" duration-ms="1799" started-at="2018-07-11T19:11:42Z" finished-at="2018-07-11T19:11:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching :NICOR]]>
+            </line>
+            <line>
+              <![CDATA[clicked hosp]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching :NICOR | For hospital clinical and audit teams]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testHospitalsPage -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.nicor.tests.TC_01_002@27f723]" name="postCondition" is-config="true" duration-ms="2346" started-at="2018-07-11T19:11:44Z" finished-at="2018-07-11T19:11:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[nicor closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.nicor.tests.TC_01_002 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

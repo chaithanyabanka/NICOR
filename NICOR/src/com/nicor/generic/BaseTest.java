@@ -3,7 +3,9 @@ package com.nicor.generic;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.internal.TestResult;
@@ -17,23 +19,18 @@ public abstract class BaseTest implements AutoConstant
 		System.setProperty(chrome_key, chrome_value);
 		System.setProperty(gecko_key, gecko_value);
 		
-		driver = new FirefoxDriver();
-		driver.manage().window().maximize();
+		driver = new ChromeDriver();
+		//driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://www.nicor.org.uk/");
+		Reporter.log("nicor opened",true);
 	}
 	
 	@AfterMethod
-	public void postCondition(TestResult res)
+	public void postCondition()
 	{
-		int status=res.getStatus();
-		if(status==2)
-		{
-			String name=res.getMethod().getMethodName();
-			GenericUtils.getScreenShot(driver,name);
-			
-		}
 		driver.close();
+		Reporter.log("nicor closed",true);
 		
 	}
 
