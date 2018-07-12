@@ -23,6 +23,8 @@ public class TC_01_001 extends BaseTest
 	// to verify the title
 	home.verifyTheTitle(Hometitle);
 	
+	home.verifyTheElement(null);
+	
 	
 	home.clickOnhospitalsLink();
 	Reporter.log("clicked hosp",true);

@@ -27,8 +27,113 @@ public class NicorHome extends BasePage
 
 	@FindBy(xpath="//span[contains(text(),'Audit Programme')]")
 	private WebElement auditProgrammelink;
+   
+	@FindBy(xpath="//*[@id=\"menu-item-36\"]/a")
+	private WebElement aboutNICORlink;
 
-
+	@FindBy(xpath="//*[@id=\"menu-item-354\"]/a")
+	private WebElement Glossarylink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-45\"]/a")
+	private WebElement NewsandEventslink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-52\"]/a")
+	private WebElement eventCalendarlink;
+	
+	
+	@FindBy(xpath="//*[@id=\"menu-item-53\"]/a")
+	private WebElement newslettersBloglink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-37\"]/a")
+	private WebElement contactUslink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-41\"]/a")
+	private WebElement forPatientsCarersCharitiesandThePubliclink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-842\"]/a")
+	private WebElement whyDoesnicorCollectmyHealthDatalink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-849\"]/a")
+	private WebElement HowdoesNicorProtectmyDatalink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-40\"]/a")
+	private WebElement forHospitalClinicalandAuditTeamslink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-814\"]/a")
+	private WebElement dataCollectionlink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-42\"]/a")
+	private WebElement forResearcherslink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-39\"]/a")
+	private WebElement forHealthOrganisationsandRegulatorslink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-38\"]/a")
+	private WebElement forCommisionersofHealthcareServiceslink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-43\"]/a")
+	private WebElement informationGovernanceandDataProtectionlink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-813\"]/a")
+	private WebElement dataManagementlink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-44\"]/a")
+	private WebElement nationalCardiacAuditProgrammelink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-1018\"]/a")
+	private WebElement adultCardiacSurgerylink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-79\"]/a")
+	private WebElement aboutAdultSurgerylink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-81\"]/a")
+	private WebElement additionalAnalysesCommencelink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-149\"]/a")
+	private WebElement adultPercutaneousCoronaryInterventionslink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-162\"]/a")
+	private WebElement cardiacRhythmManagementlink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-163\"]/a")
+	private WebElement congentialHeartDiseaseinChildrenandAdultslink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-164\"]/a")
+	private WebElement heartFailurelink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-165\"]/a")
+	private WebElement myocardialIschaemialink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-1001\"]/a")
+	private WebElement datasetslink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-177\"]/a")
+	private WebElement nicoranddatagovuklink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-176\"]/a")
+	private WebElement govCardiacRhythmManagementlink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-175\"]/a")
+	private WebElement congentialHeartDiseaseAuditlink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-174\"]/a")
+	private WebElement nationalAdulTCardiacSurgeryAuditlink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-173\"]/a")
+	private WebElement nationalAuditofPercutaneousCoronaryInterventionslink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-172\"]/a")
+	private WebElement nationalHeartFailureAuditlink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-171\"]/a")
+	private WebElement minaplink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-46\"]/a")
+	private WebElement otherNicorProjectslink;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-47\"]/a")
+	private WebElement sitemaplink;
+	
 	
 	
 	// Initialization

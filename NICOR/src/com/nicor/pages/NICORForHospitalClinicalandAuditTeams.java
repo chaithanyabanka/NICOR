@@ -14,10 +14,6 @@ public class NICORForHospitalClinicalandAuditTeams extends BasePage
 		PageFactory.initElements(driver, this);
 	}
 
-	public void verifyTheElement(WebElement element)
-	{
-		verifyElement(element);
-	}
 }
 
 
