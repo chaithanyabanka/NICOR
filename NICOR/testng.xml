@@ -7,8 +7,10 @@
       <class name="com.nicor.tests.TC_01_006"/>
       <class name="com.nicor.tests.TC_01_005"/>
       <class name="com.nicor.tests.TC_01_004"/>
+      <class name="com.nicor.tests.TC_02_001"/>
       <class name="com.nicor.tests.TC_01_003"/>
       <class name="com.nicor.tests.TC_01_002"/>
+      <class name="com.nicor.tests.TC_02_002"/>
       <class name="com.nicor.tests.TC_01_001"/>
     </classes>
   </test> <!-- Test -->

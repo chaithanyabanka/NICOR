@@ -2,6 +2,8 @@ package com.nicor.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -32,7 +34,7 @@ public class NicorHome extends BasePage
 	private WebElement aboutNICORlink;
 
 	@FindBy(xpath="//*[@id=\"menu-item-354\"]/a")
-	private WebElement Glossarylink;
+	private WebElement glossarylink;
 	
 	@FindBy(xpath="//*[@id=\"menu-item-45\"]/a")
 	private WebElement NewsandEventslink;
@@ -190,5 +192,32 @@ public class NicorHome extends BasePage
 	{
 		auditProgrammelink.click();
 	}
+	
+	public void doubleClickAboutNicor()
+	{
+	   /*
+	    *Actions acts=new Actions(driver);
+		*acts.doubleClick(aboutNICORlink);
+		*acts.perform();
+		*/
+		aboutNICORlink.click();
+		aboutNICORlink.click();
+		
+	}
+	
+	public void clickOnAboutNicor()
+	{
+		aboutNICORlink.click();
+			
+	}
+	
+	public void clickOnGlossarylink()
+	{
+		glossarylink.click();
+			
+	}
+	
+	
+	
 
 }

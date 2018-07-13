@@ -29,8 +29,11 @@ public abstract class BaseTest implements AutoConstant
 	@AfterMethod
 	public void postCondition()
 	{
+		
 		driver.close();
 		Reporter.log("nicor closed",true);
+		
+	
 		
 	}
 
