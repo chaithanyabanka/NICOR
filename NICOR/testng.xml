@@ -3,15 +3,23 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="com.nicor.tests.TC_02_005"/>
+      <class name="com.nicor.tests.TC_02_004"/>
+      <class name="com.nicor.tests.TC_02_007"/>
+      <class name="com.nicor.tests.TC_02_006"/>
+      <class name="com.nicor.tests.TC_02_001"/>
+      <class name="com.nicor.tests.TC_02_003"/>
+      <class name="com.nicor.tests.TC_02_002"/>
+      <class name="com.nicor.tests.TC_02_010"/>
       <class name="com.nicor.tests.TC_01_007"/>
       <class name="com.nicor.tests.TC_01_006"/>
       <class name="com.nicor.tests.TC_01_005"/>
       <class name="com.nicor.tests.TC_01_004"/>
-      <class name="com.nicor.tests.TC_02_001"/>
       <class name="com.nicor.tests.TC_01_003"/>
       <class name="com.nicor.tests.TC_01_002"/>
-      <class name="com.nicor.tests.TC_02_002"/>
       <class name="com.nicor.tests.TC_01_001"/>
+      <class name="com.nicor.tests.TC_02_009"/>
+      <class name="com.nicor.tests.TC_02_008"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

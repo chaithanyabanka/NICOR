@@ -47,6 +47,7 @@ public class BasePage
 		{
 			Reporter.log("Element is not present :",true);
 			Assert.fail();
+		
 		}
 	}
 

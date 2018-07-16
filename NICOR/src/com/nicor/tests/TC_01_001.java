@@ -11,7 +11,7 @@ public class TC_01_001 extends BaseTest
 	//private WebElement hospitalsLink;
 
 	@Test
-	public void testHomePage()
+	public void testHomePage() throws InterruptedException
 	{
 		
 	String Hometitle="NICOR";
@@ -21,37 +21,28 @@ public class TC_01_001 extends BaseTest
 	// to verify the title
 	home.verifyTheTitle(Hometitle);
 	
-	home.verifyTheElement(null);
+	
+	// to verify the elements present in home page
+	home.verifyTheElement(home.getHospitalsLink());
+	Reporter.log("hosp",true);
+	
+	home.verifyElement(home.getResearchersLink());
+	Reporter.log("research",true);
+	
+	home.verifyTheElement(home.getCharitiesAndPublicLink());
+	Reporter.log("charities and public",true);
 	
 	
-	home.clickOnhospitalsLink();
-	Reporter.log("clicked hosp",true);
+	home.verifyTheElement(home.getOrganisationsLink());
+	Reporter.log("organisations",true);
 	
-	driver.navigate().back();
+	home.verifyTheElement(home.getCommissionersLink());
+	Reporter.log("commissioners",true);
 	
-	home.clickOnresearchersLink();
-	Reporter.log("clicked research",true);
-	driver.navigate().back();
+	home.verifyTheElement(home.getAuditProgrammelink());
+	Reporter.log("audit programme",true);
 	
-	home.clickOncharitiesAndPublicLink();
-	Reporter.log("clicked charities",true);
-	driver.navigate().back();
-	
-	
-	home.clickOnOrganisationsLink();
-	Reporter.log("clicked organisation",true);
-	driver.navigate().back();
-	
-	home.clickOncommissionersLink();
-	Reporter.log("clicked comm",true);
-	driver.navigate().back();
-	
-	home.clickOnauditProgrammelink();
-	Reporter.log("clicked audit",true);
-	driver.navigate().back();
-	
-	
-	
+		
 	
 	}
 	

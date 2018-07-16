@@ -39,6 +39,7 @@ public class NicorHome extends BasePage
 	@FindBy(xpath="//*[@id=\"menu-item-45\"]/a")
 	private WebElement NewsandEventslink;
 	
+	
 	@FindBy(xpath="//*[@id=\"menu-item-52\"]/a")
 	private WebElement eventCalendarlink;
 	
@@ -217,7 +218,87 @@ public class NicorHome extends BasePage
 			
 	}
 	
-	
+	// ALL GETTERS AND SETTERS
+	public WebElement getAboutNICORlink() {
+		return aboutNICORlink;
+	}
+
+
+
+	public void setAboutNICORlink(WebElement aboutNICORlink) {
+		this.aboutNICORlink = aboutNICORlink;
+	}
+
+		public WebElement getHospitalsLink() {
+		return hospitalsLink;
+	}
+
+
+
+	public void setHospitalsLink(WebElement hospitalsLink) {
+		this.hospitalsLink = hospitalsLink;
+	}
+
+
+
+	public WebElement getResearchersLink() {
+		return researchersLink;
+	}
+
+
+
+	public void setResearchersLink(WebElement researchersLink) {
+		this.researchersLink = researchersLink;
+	}
+
+
+
+	public WebElement getCharitiesAndPublicLink() {
+		return charitiesAndPublicLink;
+	}
+
+
+
+	public void setCharitiesAndPublicLink(WebElement charitiesAndPublicLink) {
+		this.charitiesAndPublicLink = charitiesAndPublicLink;
+	}
+
+
+
+	public WebElement getOrganisationsLink() {
+		return OrganisationsLink;
+	}
+
+
+
+	public void setOrganisationsLink(WebElement organisationsLink) {
+		OrganisationsLink = organisationsLink;
+	}
+
+
+
+	public WebElement getCommissionersLink() {
+		return commissionersLink;
+	}
+
+
+
+	public void setCommissionersLink(WebElement commissionersLink) {
+		this.commissionersLink = commissionersLink;
+	}
+
+
+
+	public WebElement getAuditProgrammelink() {
+		return auditProgrammelink;
+	}
+
+
+
+	public void setAuditProgrammelink(WebElement auditProgrammelink) {
+		this.auditProgrammelink = auditProgrammelink;
+	}
+
 	
 
 }
