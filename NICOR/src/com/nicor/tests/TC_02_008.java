@@ -43,7 +43,7 @@ public class TC_02_008 extends BaseTest
     act.moveToElement(glo.getAngiography()).click();
     act.perform();
     
-    String angiographyText = glo.getAngiography().getText();
+    String angiographyText = glo.getAngiographyText().getText();
     
     SoftAssert  sa = new SoftAssert();
     

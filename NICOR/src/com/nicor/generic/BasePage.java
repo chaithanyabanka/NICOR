@@ -3,6 +3,7 @@ package com.nicor.generic;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
@@ -49,6 +50,15 @@ public class BasePage
 			Assert.fail();
 		
 		}
+	}
+	
+	// to perform actions class for click on element
+	
+	public void clickOnElement(WebElement target)
+	{
+		Actions act = new Actions(driver);
+		
+		act.moveToElement(target).click();
 	}
 
 }

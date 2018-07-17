@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.nicor.tests.TC_02_007">
+      <class name="com.nicor.tests.TC_02_021">
         <methods>
-          <include name="testGlossaryPage"/>
           <include name="postCondition"/>
+          <include name="testGlossaryPage"/>
           <include name="precondition"/>
         </methods>
-      </class> <!-- com.nicor.tests.TC_02_007 -->
+      </class> <!-- com.nicor.tests.TC_02_021 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

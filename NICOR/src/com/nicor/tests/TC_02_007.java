@@ -47,7 +47,7 @@ public class TC_02_007 extends BaseTest
     
     
     
-    String angiogramText = glo.getAngiogram().getText();
+    String angiogramText = glo.getAngiogramText().getText();
     
     SoftAssert  sa = new SoftAssert();
     

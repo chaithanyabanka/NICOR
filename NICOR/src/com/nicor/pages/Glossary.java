@@ -73,7 +73,7 @@ public class Glossary extends BasePage
 	@FindBy(id="atrial-fibrillation")
 	private WebElement atrialFibrillation;
 	
-	@FindBy(xpath="//p[contains(text(),'Atrial Fibrillation (AF) is a common abnormal')]")
+	@FindBy(xpath="//p[contains(text(),'Atrial Fibrillation (AF)')]")
 	private WebElement atrialFibrillationText;
 
 
@@ -130,6 +130,105 @@ public class Glossary extends BasePage
 	
 	@FindBy(xpath=".//h3[.='C']")
 	private WebElement c;
+	
+	@FindBy(id="cardiac-rehabilitation")
+	private WebElement cardiacRehabilitation;
+	
+	@FindBy(xpath="//p[contains(text(),'A programme of exercise and information sessions designed')]")
+	private WebElement cardiacRehabilitationText;
+
+	@FindBy(id="cardiogenic-shock")
+	private WebElement cardiogenicShock;
+	
+	@FindBy(xpath="//p[contains(text(),'This occurs if the heart suddenly can’t pump enough oxygen-rich')]")
+	private WebElement cardiogenicShockText;
+
+	@FindBy(id="case-mix")
+	private WebElement caseMix;
+	
+	@FindBy(xpath="//p[contains(text(),'Refers to the different types')]")
+	private WebElement caseMixText;
+
+	@FindBy(id="ccad")
+	private WebElement ccad;
+	
+	
+	@FindBy(xpath="//p[contains(text(),'Central Cardiac')]")
+	private WebElement ccadText;
+
+	@FindBy(id="ccgs")
+	private WebElement ccgs;
+	
+	@FindBy(xpath="//p[contains(text(),'Clinical Commissioning Groups commission')]")
+	private WebElement ccgsText;
+
+	@FindBy(id="chd")
+	private WebElement chd;
+	
+	@FindBy(xpath="//p[contains(text(),'Coronary heart disease is a group')]")
+	private WebElement chdText;
+
+	@FindBy(id="cop")
+	private WebElement cop;
+	
+	@FindBy(xpath="//p[contains(text(),'Clinical Outcomes Publication. COP')]")
+	private WebElement copText;
+
+	@FindBy(id="cprd")
+	private WebElement cprd;
+	
+	@FindBy(xpath="//p[contains(text(),'Clinical Practice')]")
+	private WebElement cprdText;
+
+	@FindBy(id="crt")
+	private WebElement crt;
+	
+	@FindBy(xpath="//p[contains(text(),'Cardiac resynchronisation therapy')]")
+	private WebElement crtText;
+
+	@FindBy(id="crt-d")
+	private WebElement crtd;
+	
+	@FindBy(xpath="//p[contains(text(),'Cardiac resynchronisation')]")
+	private WebElement crtdText;
+
+	@FindBy(id="crt-p")
+	private WebElement crtp;
+	
+	@FindBy(xpath="//p[contains(text(),'Cardiac resynchronisation')]")
+	private WebElement crtpText;
+
+	@FindBy(id="ctb")
+	private WebElement ctb;
+	
+	@FindBy(xpath="//p[contains(text(),'Call to balloon time in heart')]")
+	private WebElement ctbText;
+
+	@FindBy(id="ctd")
+	private WebElement ctd;
+	
+	@FindBy(xpath="//p[contains(text(),'Call to Door in heart attack')]")
+	private WebElement ctdText;
+
+	@FindBy(id="cto")
+	private WebElement cto;
+	
+	@FindBy(xpath="//p[contains(text(),'Chronic total occlusions')]")
+	private WebElement ctoText;
+
+	@FindBy(id="cva")
+	private WebElement cva;
+	
+	@FindBy(xpath="//p[contains(text(),'Cerebrovascular accident is the medical')]")
+	private WebElement cvaText;
+
+	@FindBy(id="cvd")
+	private WebElement cvd;
+	
+	@FindBy(xpath="//p[contains(text(),'Cardiovascular disease is a general')]")
+	private WebElement cvdText;
+
+
 	
 	@FindBy(xpath=".//h3[.='D']")
 	private WebElement d;
@@ -741,7 +840,388 @@ public class Glossary extends BasePage
 	public void setBshText(WebElement bshText) {
 		this.bshText = bshText;
 	}
+	
+	public WebElement getCardiacRehabilitation() {
+		return cardiacRehabilitation;
+	}
 
+
+
+	public void setCardiacRehabilitation(WebElement cardiacRehabilitation) {
+		this.cardiacRehabilitation = cardiacRehabilitation;
+	}
+
+
+
+	public WebElement getCardiacRehabilitationText() {
+		return cardiacRehabilitationText;
+	}
+
+
+
+	public void setCardiacRehabilitationText(WebElement cardiacRehabilitationText) {
+		this.cardiacRehabilitationText = cardiacRehabilitationText;
+	}
+
+
+
+	public WebElement getCardiogenicShock() {
+		return cardiogenicShock;
+	}
+
+
+
+	public void setCardiogenicShock(WebElement cardiogenicShock) {
+		this.cardiogenicShock = cardiogenicShock;
+	}
+
+
+
+	public WebElement getCardiogenicShockText() {
+		return cardiogenicShockText;
+	}
+
+
+
+	public void setCardiogenicShockText(WebElement cardiogenicShockText) {
+		this.cardiogenicShockText = cardiogenicShockText;
+	}
+
+
+
+	public WebElement getCaseMix() {
+		return caseMix;
+	}
+
+
+
+	public void setCaseMix(WebElement caseMix) {
+		this.caseMix = caseMix;
+	}
+
+
+
+	public WebElement getCaseMixText() {
+		return caseMixText;
+	}
+
+
+
+	public void setCaseMixText(WebElement caseMixText) {
+		this.caseMixText = caseMixText;
+	}
+
+
+
+	public WebElement getCcad() {
+		return ccad;
+	}
+
+
+
+	public void setCcad(WebElement ccad) {
+		this.ccad = ccad;
+	}
+
+
+
+	public WebElement getCcadText() {
+		return ccadText;
+	}
+
+
+
+	public void setCcadText(WebElement ccadText) {
+		this.ccadText = ccadText;
+	}
+
+
+
+	public WebElement getCcgs() {
+		return ccgs;
+	}
+
+
+
+	public void setCcgs(WebElement ccgs) {
+		this.ccgs = ccgs;
+	}
+
+
+
+	public WebElement getCcgsText() {
+		return ccgsText;
+	}
+
+
+
+	public void setCcgsText(WebElement ccgsText) {
+		this.ccgsText = ccgsText;
+	}
+
+
+
+	public WebElement getChd() {
+		return chd;
+	}
+
+
+
+	public void setChd(WebElement chd) {
+		this.chd = chd;
+	}
+
+
+
+	public WebElement getChdText() {
+		return chdText;
+	}
+
+
+
+	public void setChdText(WebElement chdText) {
+		this.chdText = chdText;
+	}
+
+
+
+	public WebElement getCop() {
+		return cop;
+	}
+
+
+
+	public void setCop(WebElement cop) {
+		this.cop = cop;
+	}
+
+
+
+	public WebElement getCopText() {
+		return copText;
+	}
+
+
+
+	public void setCopText(WebElement copText) {
+		this.copText = copText;
+	}
+
+
+
+	public WebElement getCprd() {
+		return cprd;
+	}
+
+
+
+	public void setCprd(WebElement cprd) {
+		this.cprd = cprd;
+	}
+
+
+
+	public WebElement getCprdText() {
+		return cprdText;
+	}
+
+
+
+	public void setCprdText(WebElement cprdText) {
+		this.cprdText = cprdText;
+	}
+
+
+
+	public WebElement getCrt() {
+		return crt;
+	}
+
+
+
+	public void setCrt(WebElement crt) {
+		this.crt = crt;
+	}
+
+
+
+	public WebElement getCrtText() {
+		return crtText;
+	}
+
+
+
+	public void setCrtText(WebElement crtText) {
+		this.crtText = crtText;
+	}
+
+
+
+	public WebElement getCrtd() {
+		return crtd;
+	}
+
+
+
+	public void setCrtd(WebElement crtd) {
+		this.crtd = crtd;
+	}
+
+
+
+	public WebElement getCrtdText() {
+		return crtdText;
+	}
+
+
+
+	public void setCrtdText(WebElement crtdText) {
+		this.crtdText = crtdText;
+	}
+
+
+
+	public WebElement getCrtp() {
+		return crtp;
+	}
+
+
+
+	public void setCrtp(WebElement crtp) {
+		this.crtp = crtp;
+	}
+
+
+
+	public WebElement getCrtpText() {
+		return crtpText;
+	}
+
+
+
+	public void setCrtpText(WebElement crtpText) {
+		this.crtpText = crtpText;
+	}
+
+
+
+	public WebElement getCtb() {
+		return ctb;
+	}
+
+
+
+	public void setCtb(WebElement ctb) {
+		this.ctb = ctb;
+	}
+
+
+
+	public WebElement getCtbText() {
+		return ctbText;
+	}
+
+
+
+	public void setCtbText(WebElement ctbText) {
+		this.ctbText = ctbText;
+	}
+
+
+
+	public WebElement getCtd() {
+		return ctd;
+	}
+
+
+
+	public void setCtd(WebElement ctd) {
+		this.ctd = ctd;
+	}
+
+
+
+	public WebElement getCtdText() {
+		return ctdText;
+	}
+
+
+
+	public void setCtdText(WebElement ctdText) {
+		this.ctdText = ctdText;
+	}
+
+
+
+	public WebElement getCto() {
+		return cto;
+	}
+
+
+
+	public void setCto(WebElement cto) {
+		this.cto = cto;
+	}
+
+
+
+	public WebElement getCtoText() {
+		return ctoText;
+	}
+
+
+
+	public void setCtoText(WebElement ctoText) {
+		this.ctoText = ctoText;
+	}
+
+
+
+	public WebElement getCva() {
+		return cva;
+	}
+
+
+
+	public void setCva(WebElement cva) {
+		this.cva = cva;
+	}
+
+
+
+	public WebElement getCvaText() {
+		return cvaText;
+	}
+
+
+
+	public void setCvaText(WebElement cvaText) {
+		this.cvaText = cvaText;
+	}
+
+
+
+	public WebElement getCvd() {
+		return cvd;
+	}
+
+
+
+	public void setCvd(WebElement cvd) {
+		this.cvd = cvd;
+	}
+
+
+
+	public WebElement getCvdText() {
+		return cvdText;
+	}
+
+
+
+	public void setCvdText(WebElement cvdText) {
+		this.cvdText = cvdText;
+	}
 
 
 	
@@ -887,6 +1367,7 @@ public class Glossary extends BasePage
 			
 		}
 		
+		
 		public void clickOnDLink()
 		{
 			d.click();
@@ -954,7 +1435,5 @@ public class Glossary extends BasePage
 		}
 		
 		
-	 
-	
 
 }
