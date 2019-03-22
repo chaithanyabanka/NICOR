@@ -5,9 +5,7 @@ import org.testng.annotations.Test;
 
 import com.nicor.generic.BaseTest;
 import com.nicor.pages.NICORForHealthOrganisationsAndRegulators;
-
 import com.nicor.pages.NicorHome;
-
 public class TC_01_005 extends BaseTest
 {
 	String ForHealthOrganisationsAndRegulators="NICOR | For health organisations and regulators";
@@ -24,8 +22,6 @@ public class TC_01_005 extends BaseTest
 	// to verify the home title
 	home.verifyTheTitle(title);
 	
-	
-	
 	// to click on for organisations link
 	home.clickOnOrganisationsLink();
 	
@@ -35,4 +31,5 @@ public class TC_01_005 extends BaseTest
 	nfho.verifyTitle(ForHealthOrganisationsAndRegulators);
 	
 	}
+	
 }
